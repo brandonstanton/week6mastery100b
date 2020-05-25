@@ -1,0 +1,68 @@
+h1 {color: blue; }
+        table, tr, td {
+            padding: 10px;
+            border: 1px solid black;
+            border-collapse: colllapse;
+        }
+    
+ *{font-family: 'Roboto', sans-serif;
+}
+.nav-bar {
+    font-size: 20px;
+    text-align: center;
+}
+
+.grid-container {
+    display: right;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: midnightblue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    
+  }
